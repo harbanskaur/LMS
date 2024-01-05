@@ -1,0 +1,75 @@
+.head {
+    background-color:darkslateblue;
+    font-family:Trirong;
+}
+.sidebar {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:aliceblue;
+    
+}
+.content {
+    height: 100vh;
+    background-color:white;
+}
+
+.nav-link {
+    padding: 15px;
+    font-size: 24px;
+    transition: background-color 0.3s;
+    font-family:Trirong;
+    color:black;
+}
+
+.nav-link:hover {
+    background-color: white;
+    font-size: 26px;
+    color: black;
+}
+/* message page  */
+  /* Your existing styles */
+
+  .message-container {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.message-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.message-body {
+    padding: 20px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.message-input {
+    display: flex;
+    padding: 10px;
+}
+
+.message-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.message-input button {
+    padding: 8px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}

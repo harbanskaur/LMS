@@ -1,0 +1,13 @@
+.head2 {
+    background-color:crimson;
+    font-family:Trirong;
+}
+.sidebar2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:lavenderblush;
+}
+.caption{
+    text-align: center;
+}
