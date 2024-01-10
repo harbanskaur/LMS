@@ -3,7 +3,7 @@
 }
 .heading h1{
     text-align: left;
-    margin-left:16%;
+    margin-left:15%;
 }
 .card-title{
     text-align: center;
@@ -17,4 +17,55 @@
 .card-body a:hover {
 
     color:black;
+}
+.icon{
+    margin-right:15%;
+}
+.buttons{
+    margin-left:35%;
+}
+.forms{
+    text-align: left;
+}
+/* batch card  */
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.card-img {
+    width: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    flex: 1;
+    padding: 1rem;
+}
+
+.read-more-content {
+    display: none;
+}
+
+.read-more-toggle {
+    cursor: pointer;
+    color: blue;
+}
+/* message  */
+#chat-box {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#message-input {
+    margin-top: 10px;
+}
+/* notification  */
+.notification-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
 }

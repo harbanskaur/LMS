@@ -24,6 +24,23 @@ Route::get('/improvements',[DisplayController::class,'improvements'])->name('imp
 Route::get('/messages',[DisplayController::class,'messages'])->name('messages');
 
 Route::get('/main',[DisplayController::class,'main'])->name('main');
+Route::get('/subjects',[DisplayController::class,'subjects'])->name('subjects');
+Route::get('/addcourse',[DisplayController::class,'addcourse'])->name('addcourse');
+Route::get('/upload-assignments',[DisplayController::class,'upload_assignments'])->name('upload');
+Route::get('/report',[DisplayController::class,'report'])->name('report');
+Route::get('/batches',[DisplayController::class,'batches'])->name('batches');
+Route::get('/all-batches',[DisplayController::class,'allBatches'])->name('allBatches');
+Route::get('/msg',[DisplayController::class,'msg'])->name('msg');
+Route::get('/reminders',[DisplayController::class,'reminders'])->name('reminders');
+
+Route::get('/index',[DisplayController::class,'index'])->name('index');
+Route::get('/batchStudent',[DisplayController::class,'batchStudent'])->name('batchStudent');
+Route::get('/single',[DisplayController::class,'single'])->name('single');
+Route::get('/subjectList',[DisplayController::class,'subjectList'])->name('subjectList');
+Route::get('/assign',[DisplayController::class,'assign'])->name('assign');
+Route::get('/syllabus',[DisplayController::class,'syllabus'])->name('syllabus');
+Route::get('/reminders',[DisplayController::class,'reminderStudent'])->name('reminders');
+Route::get('/attendence',[DisplayController::class,'attendence'])->name('attendence');
 
 
 

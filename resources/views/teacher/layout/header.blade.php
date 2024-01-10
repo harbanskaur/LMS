@@ -8,15 +8,21 @@
     <title>Bootstrap Page with Cards</title>
     <link rel="stylesheet" href="{{asset('teacher/css/style2.css')}}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
+    <link rel="stylesheet" href="path/to/boxicons/css/boxicons.min.css">
 
 </head>
 
 <body>
-
-    <header class="text-white text-center py-4 heading">
-        <h1><i class="bx bxs-box"></i> Teacher's Portal</h1>
-    </header>
+<!-- Your header with book, message, and logout icons -->
+<header class="text-white text-center py-4 heading">
+    <div class="d-flex justify-content-between align-items-center">
+        <h1><i class="bx bxs-book-open"></i> Teacher's Portal</h1>
+        <div class="icon">
+            {{-- <a href="#" class="text-white mr-3"><i class="bx bx-envelope bx-lg"></i></a> <!-- Larger Message Icon --> --}}
+            <a href="#" class="text-white"><i class="bx bx-log-out bx-lg"></i></a> <!-- Larger Logout Icon -->
+        </div>
+    </div>
+</header>
     <!-- Bootstrap Content Area -->
     <div class="container mt-4">
 
